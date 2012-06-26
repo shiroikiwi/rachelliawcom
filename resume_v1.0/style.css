@@ -1,0 +1,112 @@
+body {
+	font-family: 'Nixie One',Georgia,Serif;
+	background-image:url(bg_dotted.png);
+	background-repeat-x:repeat;
+	background-repeat-y:repeat;
+	background-attachment:scroll;
+	background-position-x:0px;
+	background-position-y:0px;
+	background-origin:initial;
+	background-clip:initial;
+	background-color:initial;
+}
+#main_content {
+	background-color:#7eaf9e;
+	width:1050px;
+	margin-left:auto;
+	margin-right:auto;
+	padding:10px 15px 10px 15px;
+	border-radius:10px;
+	color:#ffffff;
+	text-shadow: 0.1em 0.1em 2em #7eaf9e;
+}
+.section {
+	background-color:#acddcb;
+	border-radius: 10px;
+	padding:15px 0px 15px 0px;
+	margin:15px 0px 15px 0px;
+}
+h1 {
+	text-align:center;
+	padding:0px;
+	margin:0px;
+}
+h2 {
+	font-size:22px;
+	padding:0px 0px 0px 10px;
+	margin:0px 0px 10px 0px;
+}
+p {
+	font-size:18px;
+}
+ul {
+	font-size:18px;
+	list-style-type:none;
+	padding: 0px 20px 0px 20px;
+	margin:0px;
+}
+ul.show_bullets {
+	font-size:16px;
+	list-style-type:circle;
+	padding:0px 0px 0px 20px;
+	margin:0px;
+}
+li {
+	margin-top:3px;
+	margin-bottom:4px;
+}
+a {
+	color:#ffffff;
+	text-decoration:none;
+	position: relative;
+	padding-bottom: 6px;
+   }
+a:hover::after {
+	content: "";
+	position: absolute;
+   	bottom: 2px;
+   	left: 0;
+  	height: 1px;
+   	width: 100%;
+   	background: #a3d4c3;
+   	background: -webkit-gradient(linear, left top, right top, color-stop(0%,transparent), color-stop(50%,#a3d4c3), color-stop(100%,transparent));
+   	background: -webkit-linear-gradient(left, transparent 0%,#a3d4c3 50%,transparent 100%);
+   	background: -moz-linear-gradient(left, transparent 0%,#a3d4c3 50%, #transparent 100%);
+   	background: -ms-linear-gradient(left, transparent 0%,#a3d4c3 50%,#transparent 100%);
+   	background: -o-linear-gradient(left, transparent 0%,#a3d4c3 50%,transparent 100%);
+   	background: linear-gradient(left, transparent 0%,#a3d4c3 50%,transparent 100%);
+   }
+table {
+	padding:0px 20px 0px 20px;
+	margin:0px;
+	width:1050px;
+}
+td {
+	border:none;
+}
+td.company {
+	font-size:20px;
+	width:675px;
+}
+td.location {
+	font-size:18px;
+	text-align:right;
+}
+td.title {
+	font-size:18px;
+	font-style:italic;
+	width:675px;
+}
+td.dates {
+	font-size:18px;
+	text-align:right;
+}
+td.description {
+	font-size:16px;
+	padding-left:12px;
+}
+td.comp_descrip {
+	font-size:16px;
+	font-style:italic;
+	padding-left:10px;
+}
